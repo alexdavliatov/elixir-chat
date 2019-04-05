@@ -1,0 +1,9 @@
+{application,chat,
+             [{applications,[kernel,stdlib,elixir,logger,postgrex,ecto_sql]},
+              {description,"chat"},
+              {modules,['Elixir.Chat.Ets','Elixir.Chat.Map',
+                        'Elixir.Chat.Mnesia','Elixir.Group',
+                        'Elixir.IdentifiedMessage','Elixir.Message',
+                        'Elixir.Party','Elixir.User']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
